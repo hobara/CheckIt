@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './client/ToU.jsx',
+  entry: './client/CheckIt.jsx',
   output: {
     filename: './bundle.js',
   },
