@@ -1,6 +1,6 @@
 import React from 'react';
 import merge from 'lodash/merge';
-import TodoDetail from './todo_detail';
+import TodoDetailContainer from './todo_detail_container';
 
 class TodoItem extends React.Component {
   constructor(props) {
@@ -28,7 +28,7 @@ class TodoItem extends React.Component {
     const { title, done } = todo;
     let detail;
     if (this.state.detail) {
-      detail = <TodoDetail todo={todo}/>;
+      detail = <TodoDetailContainer todo={todo}/>;
     }
     return(
       <li className='todo-item'>
