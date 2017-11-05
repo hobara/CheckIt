@@ -4,7 +4,7 @@ import TodoListContainer from './todo_list_container';
 const App = () => (
   <div className="app">
     <h1>CheckIt App</h1>
-    <h2>keep track of your Todo list</h2>
+    <h3>Keep track of your Todo list!</h3>
     <TodoListContainer />
   </div>
 );
