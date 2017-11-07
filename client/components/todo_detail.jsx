@@ -12,6 +12,7 @@ class TodoDetail extends React.Component {
   }
 
   handleSubmit(e) {
+    console.alert('hey');
     e.preventDefault;
     this.setState({['title']: this.props.todo.title});
     console.log(this.state);
@@ -40,7 +41,7 @@ class TodoDetail extends React.Component {
           onClick={removeTodo}
           >Delete Todo</button>
         <form className='todo-update'
-          onSubmit={this.handleSubmit}
+
           >
           <textarea
             className='input'
@@ -50,6 +51,7 @@ class TodoDetail extends React.Component {
             required>
           </textarea>
           <button className='update-button'
+            onClick={this.handleSubmit}
             >Update detail!</button>
         </form>
       </div>
