@@ -4,7 +4,7 @@ import CurrentTime from './time';
 
 const App = () => (
   <div className='app'>
-    <h1>MomentList App</h1>
+    <h1>MomentKeepr App</h1>
     <CurrentTime />
     <h3>Type your Todos</h3>
     <TodoListContainer />

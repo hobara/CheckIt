@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './client/CheckIt.jsx',
+  entry: './client/MomentKeepr.jsx',
   output: {
     filename: './bundle.js',
   },
