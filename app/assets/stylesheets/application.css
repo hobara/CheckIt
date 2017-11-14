@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+
+html, h1 {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+#content {
+  background-image: url("https://res.cloudinary.com/hobara/image/upload/v1510642531/christian-joudrey-96208_fhpuep.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+body {
+  color: white;
+}
+
+.main-message {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.greeting-name {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.time {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

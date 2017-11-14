@@ -43,10 +43,10 @@ class CurrentTime extends React.Component {
     minutes = (minutes < 10) ? `0${minutes}` : minutes;
     seconds = (seconds < 10) ? `0${seconds}` : seconds;
     return (
-      <div>
-        <h1>{greeting}</h1>
-        <h1>{hours}:{minutes}:{seconds}</h1>
-        <h1>{this.state.currentTime.toDateString()}</h1>
+      <div className='main-message'>
+        <p className='greeting-name'>{greeting}</p>
+        <p className='time'>{hours}:{minutes}:{seconds}</p>
+        <p className='date'>{this.state.currentTime.toDateString()}</p>
       </div>
     );
   }
